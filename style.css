@@ -1,18 +1,27 @@
-body {
-  font-family: Arial, sans-serif;
+html, body{
+  height: 100%;
   margin: 0;
-  padding: 2rem;
-  background-color: rgb(223, 216, 216);
-  color: #333;
+}
+
+body {
+  background-image: url("image/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+
 }
 
 header, footer {
+  color: white;
   text-align: center;
+  text-shadow: 0 0 55px rgba(0,0,0,0.7);
   margin-bottom: 2rem;
 }
 
 h1 {
-  color: #206ea1ff;
+  color: rgb(245, 242, 242);
 }
 
 a {
@@ -25,9 +34,10 @@ a:hover {
 }
 
 main {
+  color: white;
   max-width: 900px;
   margin: auto;
-  background: rgb(241, 174, 174);
+  background: rgb(43, 23, 53);
   padding: 2rem;
   border-radius: 8px;
 }
